@@ -1,0 +1,34 @@
+@import "config/_variables";
+@import "mixin/_mixin";
+@import "mixin/_btnhack";
+@import "mixin/_scrollbar";
+@import "extend/_clearfix";
+@import "extend/_positionCenter";
+
+@import "config/_reset";
+@import "config/_reboot";
+@import "config/_typography";
+@import "config/_breakpoint";
+
+@import 'utilities/_utilities';
+@import 'utilities/_hidetext';
+@import 'utilities/_clearfix';
+
+@import "components/_button";
+@import "components/_form";
+@import "components/_tables";
+
+.clockWrapper {
+  background-color: #405A44;
+  width: 350px;
+  height: 350px;
+  border-radius: 60px;
+  @extend %positonCenter;
+  &__inner {
+    background-color: #2B3B28;
+    width: 90%;
+    height: 90%;
+    border-radius: 100%;
+    @extend %positonCenter;
+  }
+}

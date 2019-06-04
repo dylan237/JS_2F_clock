@@ -1,0 +1,16 @@
+//自動計算圖片寬高
+@mixin bg($img) {   
+  background: url("../images/#{$img}");
+  width: image-width("../images/#{$img}");  
+  height: image-height("../images/#{$img}");  
+}
+@mixin text-hide {
+  white-space: nowrap;
+  text-indent: 110%;
+  overflow: hidden;
+}
+@mixin flex($justify-content, $align-item) {
+  display: flex;
+  justify-content: $justify-content;
+  align-items: $align-item;
+}

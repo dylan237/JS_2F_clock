@@ -1,0 +1,19 @@
+@mixin btn($color) {
+  display: inline-block;
+  zoom: 1;
+  line-height: normal;
+  white-space: nowrap;
+  vertical-align: middle;
+  text-align: center;
+  cursor: pointer;
+  -webkit-user-drag: none;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  box-sizing: border-box;
+  background-color: $color;
+  &:hover{
+    background-color: mix($color, #000, 40%)
+  }
+}

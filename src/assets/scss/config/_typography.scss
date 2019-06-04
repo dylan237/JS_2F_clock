@@ -1,0 +1,19 @@
+$base-font-size: 14px;
+$base-line-height: 1.5;
+$font-xxl: $base-font-size * 2.25;
+$font-xl: $base-font-size * 1.5;
+$font-l: $base-font-size * 1.25;
+$font-m: $base-font-size;
+$font-s: $base-font-size * 0.8;
+
+//font
+$font-default: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+$font-primary: Microsoft JhengHei, Arial, sans-serif;
+$font-title: Helvetica Neue, Regular;
+$font-times: Times, Regular;
+
+body,html {
+    font-size: $base-font-size;
+    line-height: $base-line-height;
+    font-family: $font-primary;
+}

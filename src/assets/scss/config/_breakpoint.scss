@@ -1,0 +1,25 @@
+$l : 1024px;
+$m: 768px;
+$s: 320px;
+
+@mixin bp($type, $max, $min) {
+    @if $type == 1 {
+        @media (max-width: $max) and (min-width: $min) {@content;}
+    }
+    @else if $type == 2 {
+        @media (max-width: $max) {@content;}
+    }
+    @else if $type == 3 {
+        @media (min-width: $min) {@content;}
+    }
+}
+// eg {
+//     @include bp(1 ,$l ,$s){
+//         width: 600px;
+//     }
+// }
+// eg {
+//     @include bp(2 ,$s ,0){
+//         width: 600px;
+//     }
+// }

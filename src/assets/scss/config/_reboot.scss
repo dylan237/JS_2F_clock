@@ -1,0 +1,61 @@
+html {
+    box-sizing: border-box;
+    transition: 0.5s all;
+    -ms-overflow-style: scrollbar;
+    color: $text-color;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+    text-size-adjust: 100%;
+    @media (min-width: $wrap-width){
+        @include scrollbars(2px, #404040);
+    }
+}
+body {
+    background-color: #293B29;
+}
+* {
+    touch-action: pan-y;
+}
+*,
+*::before,
+*::after {
+    outline: none;
+    box-sizing: inherit;
+}
+a {
+    text-decoration: none;
+    color: $text-color;
+
+    &:hover {
+        color: $link-color-hover;
+    }
+}
+//統一表單focus設置
+a:focus,
+button:focus,
+input:focus,
+select:focus,
+textarea:focus {
+    outline: none;
+    // color: #e4e67c;
+    // outline: #000 dotted 2px;
+    // outline-offset: .05em;
+}
+
+// input:-webkit-autofill,
+// textarea:-webkit-autofill,
+// select:-webkit-autofill {
+//     background-color: #0e0e0e;
+//     background-image: none;
+//     box-shadow: 0 0 0 400px #0e0e0e inset;
+//     -webkit-box-shadow: 0 0 0 400px #0e0e0e inset;
+//     -webkit-text-fill-color: #8c8c8c;
+// }
+/* 
+input:-webkit-autofill,
+textarea:-webkit-autofill,
+select:-webkit-autofill {
+    background-color: #000000 !important;
+    background-image: none;
+    color: #fff !important;
+}*/

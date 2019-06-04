@@ -1,0 +1,113 @@
+.center {
+    left: 50%;
+    transform: translateX(-50%);
+}
+.isOpenRight {
+    transform: translateX(-50%) !important;
+}
+.isOpenLeft {
+    transform: translateX(0%) !important;
+}
+.isOpenTop {
+    top: 0 !important;
+    transform: translateY(0) !important;
+}
+.btn-disabled {
+    opacity: .5;
+    pointer-events: none;
+}
+
+.btn-blue {
+    background-color: #5E9CDE  !important;
+    border-color: #5E9CDE  !important;
+}
+.btn-blue-darken {
+    background-color: mix(#5E9CDE, #000, 60%)  !important;
+}
+
+.btn-red {
+    background-color: #DC5166  !important;
+    border-color: #DC5166  !important;
+}
+.btn-red-darken {
+    background-color: mix(#DC5166, #000, 60%) !important;
+}
+
+.btn-success {
+    background-color: #90BA58  !important; /**/
+    color: #fff !important;
+    border-color: #90BA58  !important; /**/
+}
+.btn-success-darken {
+    background-color: mix(#90BA58, #000, 60%) !important;
+    color: #fff !important;
+}
+
+.btn-invalid {
+    background-color: #22272B  !important; 
+    color: #C2C2C2 !important; /**/
+}
+
+.btn-locked {
+    border-style: solid !important;
+    border-width: 2px !important;
+    background-color: transparent !important;
+    cursor: unset !important;
+}
+
+.locked-red {
+    color:#DC5166 !important;
+    border-color: #DC5166 !important;
+}
+
+.locked-blue {
+    color: #5E9CDE !important;
+    border-color: #5E9CDE !important;
+}
+
+.locked-success {
+    color: #90BA58 !important;
+    border-color: #90BA58 !important;
+}
+
+.txt-red {
+    color: #DC5166  !important; 
+}
+
+.txt-blue {
+    color: #5E9CDE  !important; 
+}
+
+.txt-green {
+    color: #90BA58  !important; 
+}
+
+.txt-white {
+    color: #FFFFFF  !important; 
+}
+
+.primary-blue {
+    background-color: #5E9CDE !important; /**/
+}
+
+.primary-red {
+    background-color: #DC5166 !important; /**/
+}
+
+.is-win {
+    color: #E3B854 !important; //過去賽事-盤口資訊
+}
+
+.w-100 {
+    width: 100% !important;
+}
+
+.w-50 {
+    width: 50% !important;
+}
+// 首頁tab
+.is-tabActive {
+    background-color: #212121 !important; /**/
+    color: #CC4257 !important; /**/
+    border-bottom: #DC5166 solid 1px !important; /**/
+}

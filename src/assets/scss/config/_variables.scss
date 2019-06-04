@@ -1,0 +1,13 @@
+//樣式更換 nth($bg,$style);
+$web:           A               B               C;
+$main-color:    #e33435        #0666e8         #d100d1;
+$bg:            #e33435        #0666e8         #d100d1;
+$hot-color:     #01a5ca        #0666e8         #0666e8;
+
+$style: index($web,A);
+
+$text-color: #000;
+$link-color: #000;
+$link-color-hover: #fff;
+$bg-color: #212121;
+$wrap-width: 1024px;
