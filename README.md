@@ -1,4 +1,4 @@
-> JS地下城練習 - F2
+> JS地下城練習 - F2 時鐘
 
 [DEMO](https://dylan237.github.io/JS_F2_clock/)
 
