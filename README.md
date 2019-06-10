@@ -1,4 +1,4 @@
-> JS地下城練習 - F2
+![](https://i.udemycdn.com/redactor/raw/2019-01-30_13-18-28-195293e3bf74ddd9c719081954bb75e2.png)
 
 ## BOSS弱點
 
