@@ -1,6 +1,6 @@
 ## JS地下城練習 - 2F 時鐘
 
-[DEMO](https://dylan237.github.io/JS_2F_clock/)
+[DEMO](https://dylan237.github.io/JS_2F_clock/)  
 [Blog 挑戰紀錄](https://dylan237.github.io/js-2f-clock.html)
 
 使用技術
